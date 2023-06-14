@@ -1,0 +1,99 @@
+.allf {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+a.af {
+  text-decoration: none;
+}
+
+.bodyf {
+  height: 100%;
+  width: 100%;
+  background-color: #eceef9;
+}
+
+.footerf {
+  color: #333;
+  background-color: #e6f0ff;
+  position: bottom;
+  bottom: 0;
+}
+
+.rowf {
+  display: flex;
+  padding: 1rem;
+}
+
+.columnf {
+  width: calc(100% / 3);
+  padding: 0 0.9375rem;
+}
+
+h4.h4f {
+  margin-bottom: 0.9375rem;
+  font-size: 1.5rem;
+}
+
+p.pf {
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
+
+ul.ulf {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.ulf li.lif {
+  margin-bottom: 0.625rem;
+}
+
+ul.ulf li.lif a.af {
+  color: #333;
+  font-size: 1rem;
+}
+
+ul.ulf li.lif i.if {
+  color: #6faaff;
+}
+
+ul.ulf li.lif a.af:hover {
+  color: #6faaff;
+}
+
+ul.ulf.social-icons {
+  display: flex;
+  column-gap: 0.625rem;
+}
+
+.social-icons i.if {
+  color: white;
+}
+
+ul.ulf.social-icons li.lif {
+  margin-bottom: 0rem;
+}
+
+ul.ulf.social-icons li.lif a.af {
+  display: grid;
+  place-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 100%;
+  background-color: #6faaff;
+}
+
+ul.ulf.social-icons li.lif:hover a.af {
+  background-color: #6fdeff;
+}
+
+.copyright {
+  text-align: center;
+  color: #fff;
+  background-color: #6faaff;
+  padding: 0.6rem 0;
+}
