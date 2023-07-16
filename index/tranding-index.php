@@ -15,21 +15,26 @@
   <div class="item" style="background-image: url(../assets/images/Minecraft.png)">
   <div class="item-desc">
     <h3>Minecraft</h3>
-    <p>Minecraft is a game about placing blocks and going on adventures. Explore randomly generated worlds and build amazing things from the simplest of homes to the grandest of castles. Play in creative mode with unlimited resources or mine deep into the world in survival mode, crafting weapons and armor to fend off the dangerous mobs.</p>
+    <p>Minecraft is a game about placing blocks and going on adventures. 
+       Explore randomly generated worlds and build amazing things from the simplest of homes to the grandest of castles. 
+       Play in creative mode with unlimited resources or mine deep into the world in survival mode, 
+       crafting weapons and armor to fend off the dangerous mobs.</p>
     <a href="https://www.minecraft.net" target="_blank" class="official-link">Minecraft</a>
   </div>
 </div>
 <div class="item active" style="background-image: url(../assets/images/stray.png);">
       <div class="item-desc">
         <h3>Stray</h3>
-        <p>Stray is a third-person cat adventure game set amidst the detailed, neon-lit alleys of a decaying cybercity and the murky environments of its seedy underbelly.</p>
+        <p>Stray is a third-person cat adventure game set amidst the detailed, 
+          neon-lit alleys of a decaying cybercity and the murky environments of its seedy underbelly.</p>
           <a href="https://stray.game/" target="_blank" class="official-link">Stray</a>
       </div>
     </div>
     <div class="item active" style="background-image: url(../assets/images/gtav.png);">
       <div class="item-desc">
         <h3>GTA V</h3>
-        <p>Grand Theft Auto V is a 2013 action-adventure game developed by Rockstar North and published by Rockstar Games. It is the seventh main entry in the Grand Theft Auto series, 
+        <p>Grand Theft Auto V is a 2013 action-adventure game developed by Rockstar North and published by Rockstar Games. 
+          It is the seventh main entry in the Grand Theft Auto series, 
           following 2008's Grand Theft Auto IV, and the fifteenth instalment overall.</p>
           <a href="https://www.rockstargames.com/gta-v" target="_blank" class="official-link">GTA V</a>
       </div>

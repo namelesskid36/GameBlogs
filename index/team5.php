@@ -143,7 +143,7 @@ body {
 		<div class="container">
 			<div class="row">
 				<div class="section-title">
-					<h2>meet <span>creative</span> team</h2><sub>(not really)</sub>
+					<h2>meet <span>creative</span> team</h2>
 				</div>
 			</div>
 			<div class="row">

@@ -135,6 +135,11 @@ header.shadow .logo{
     padding-right: 40px;
 }
 
+.hidden {
+    display: none;
+  }
+  
+
 .titleText{
     font-weight: 600;
     color: #111;
