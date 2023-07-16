@@ -29,15 +29,15 @@ $query = mysqli_query($conn, $sql);
 if(isset($_REQUEST['new_post'])){
     $title = $_REQUEST['title'];
     $content = $_REQUEST['content'];
-    $authorId = $_SESSION['user_id'];
 
-    $sql = "INSERT INTO blog(title, content, author_id) VALUES('$title', '$content', $authorId)";
+    $sql = "INSERT INTO blog(title, content, author_id) VALUES('$title', '$content', '{$_SESSION['user_id']}')";
     mysqli_query($conn, $sql);
+
+    echo $sql;
 
     header("Location: blog-index.php?info=added");
     exit();
 }
-
 
 // Get post data based on id
 if(isset($_REQUEST['id'])){

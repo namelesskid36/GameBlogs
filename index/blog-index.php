@@ -13,7 +13,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-    <title>GameHub | Blogs</title>
+    <title>Index Blog</title>
 </head>
 <body style="background-image: url(https://images.wallpapersden.com/image/download/tiny-tina-s-wonderlands-gaming-background_bWVpZmuUmZqaraWkpJRmbmdlrWZlbWVnZWdn.jpg);">
 
@@ -35,29 +35,18 @@
 
         <!-- Display posts from database -->
         <div class="row">
-    <?php foreach ($query as $q) {
-        $authorId = $q['author_id'];
-        $sql = "SELECT Username FROM users WHERE Id = $authorId";
-        $queryAuthor = mysqli_query($conn, $sql);
-        $user = mysqli_fetch_assoc($queryAuthor);
-    ?>
-        <div class="col-12 col-lg-4 d-flex justify-content-center">
-            <div class="card text-white bg-dark mt-5" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-title">
-                        <?php echo $q['title']; ?>
-                    </h5>
-                    <p class="card-text">
-                        <?php echo substr($q['content'], 0, 50); ?>...
-                    </p>
-                    <a href="blog-view.php?id=<?php echo $q['id'] ?>" class="btn btn-light">Read More <span class="text-danger">&rarr;</span></a>
-                    <sub>by <?php echo $user['Username']; ?></sub>
+            <?php foreach($query as $q){ ?>
+                <div class="col-12 col-lg-4 d-flex justify-content-center">
+                    <div class="card text-white bg-dark mt-5" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title"><?php echo $q['title'];?></h5>
+                            <p class="card-text"><?php echo substr($q['content'], 0, 50);?>...</p>
+                            <a href="blog-view.php?id=<?php echo $q['id']?>" class="btn btn-light">Read More <span class="text-danger">&rarr;</span></a>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            <?php }?>
         </div>
-    <?php } ?>
-</div>
-
        
     </div>
 
